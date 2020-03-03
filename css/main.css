@@ -1,0 +1,374 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, big, em, img, s, small, strike, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Spartan";
+  vertical-align: baseline;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  --main-text: #550a46;
+  --secondary-text: #4a69bb;
+  --light-text: #b9cced;
+  --main-bg: #413c69;
+}
+
+body {
+  background-color: #020218;
+  overflow-x: hidden;
+}
+
+#main-page {
+  padding: 1.5rem 2rem;
+  overflow-x: hidden;
+  height: 90rem;
+}
+
+#main-page #landing-page h1 {
+  color: white;
+  font-size: 150%;
+  text-align: end;
+  margin-right: 5rem;
+}
+
+#main-page #landing-page h2 {
+  font-size: 250%;
+  color: white;
+  text-transform: lowercase;
+  font-weight: 900;
+  position: absolute;
+  -webkit-transform: translate(18%, 28rem);
+          transform: translate(18%, 28rem);
+  z-index: 10;
+}
+
+#main-page #landing-page nav {
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  -webkit-transform: translateY(4rem);
+          transform: translateY(4rem);
+  padding-left: 2rem;
+}
+
+#main-page #landing-page nav h3 {
+  color: white;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  left: -3rem;
+  top: 2.3rem;
+  line-height: 1.4rem;
+  text-align: end;
+  font-size: 100%;
+}
+
+#main-page #landing-page nav ul {
+  border-left: .02rem solid white;
+  padding-left: .3rem;
+}
+
+#main-page #landing-page nav ul li {
+  margin-bottom: .1rem;
+}
+
+#main-page #landing-page nav ul li a {
+  color: var(--light-text);
+  margin-left: .2rem;
+  -webkit-transition: margin-left .3s ease-in;
+  transition: margin-left .3s ease-in;
+  font-size: 70%;
+  line-height: 1.5rem;
+}
+
+#main-page #landing-page nav ul li a:hover {
+  margin-left: .8rem;
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(1) {
+  width: 20rem;
+  position: absolute;
+  z-index: 0;
+  -webkit-transform: translate(8rem, 5rem);
+          transform: translate(8rem, 5rem);
+}
+
+#main-page #landing-page .empanada-img-main .img-empanada {
+  width: 10rem;
+  position: absolute;
+  z-index: 1;
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(2) {
+  -webkit-transform: translate(7.4rem, 27rem);
+          transform: translate(7.4rem, 27rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(3) {
+  -webkit-transform: translate(7.4rem, 20rem);
+          transform: translate(7.4rem, 20rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(4) {
+  -webkit-transform: translate(7.2rem, 8.2rem);
+          transform: translate(7.2rem, 8.2rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(5) {
+  -webkit-transform: translate(10.7rem, 4.5rem);
+          transform: translate(10.7rem, 4.5rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(6) {
+  -webkit-transform: translate(18.8rem, 5rem);
+          transform: translate(18.8rem, 5rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(7) {
+  -webkit-transform: translate(18.8rem, 13rem);
+          transform: translate(18.8rem, 13rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(8) {
+  -webkit-transform: translate(18.8rem, 20.5rem);
+          transform: translate(18.8rem, 20.5rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(9) {
+  -webkit-transform: translate(18.8rem, 27rem);
+          transform: translate(18.8rem, 27rem);
+}
+
+#main-page #landing-page .empanada-img-main img:nth-of-type(10) {
+  -webkit-transform: translate(12rem, 9.2rem);
+          transform: translate(12rem, 9.2rem);
+}
+
+#main-page #landing-page .info-empanadas {
+  width: 75%;
+  padding: 6rem 1rem 2rem 1rem;
+  background-color: var(--secondary-text);
+  height: 48rem;
+  text-align: end;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+  color: white;
+  -webkit-transform: translate(6rem, 34.5rem);
+          transform: translate(6rem, 34.5rem);
+  z-index: 30;
+}
+
+@media screen and (min-width: 500px) {
+  #main-page {
+    padding: 1.5rem 2.5rem;
+    overflow-x: hidden;
+    height: 90rem;
+  }
+  #main-page #landing-page h1 {
+    margin-right: 10rem;
+  }
+  #main-page #landing-page h2 {
+    width: 13rem;
+    text-align: end;
+    -webkit-transform: translate(5.5rem, 29rem);
+            transform: translate(5.5rem, 29rem);
+    font-size: 300%;
+    letter-spacing: .2rem;
+  }
+  #main-page #landing-page nav ul {
+    border-left: .02rem solid white;
+    padding-left: .8rem;
+  }
+  #main-page #landing-page .empanada-img-main {
+    -webkit-transform: translate(2.9rem);
+            transform: translate(2.9rem);
+  }
+  #main-page #landing-page .info-empanadas {
+    width: 60%;
+    height: 35rem;
+    -webkit-transform: translate(9rem, 34.5rem);
+            transform: translate(9rem, 34.5rem);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #main-page {
+    padding: 1.5rem 2.5rem;
+    overflow-x: hidden;
+    height: 90rem;
+  }
+  #main-page #landing-page h1 {
+    margin-right: 10rem;
+  }
+  #main-page #landing-page h2 {
+    width: 13rem;
+    text-align: end;
+    -webkit-transform: translate(5.5rem, 21rem);
+            transform: translate(5.5rem, 21rem);
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+  }
+  #main-page #landing-page nav {
+    -webkit-transform: translate(0.5rem);
+            transform: translate(0.5rem);
+  }
+  #main-page #landing-page nav ul {
+    border-left: .02rem solid white;
+    padding-left: .8rem;
+  }
+  #main-page #landing-page nav ul li a {
+    font-size: 50%;
+    line-height: 1rem;
+  }
+  #main-page #landing-page .empanada-img-main {
+    -webkit-transform: translate(10%, -3rem);
+            transform: translate(10%, -3rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(1) {
+    width: 23rem;
+    position: absolute;
+    z-index: 0;
+    -webkit-transform: translate(8rem, 5rem);
+            transform: translate(8rem, 5rem);
+  }
+  #main-page #landing-page .empanada-img-main .img-empanada {
+    width: 12rem;
+    position: absolute;
+    z-index: 1;
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(2) {
+    -webkit-transform: translate(7.4rem, 30rem);
+            transform: translate(7.4rem, 30rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(3) {
+    -webkit-transform: translate(7.4rem, 21.9rem);
+            transform: translate(7.4rem, 21.9rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(4) {
+    -webkit-transform: translate(6.5rem, 9.2rem);
+            transform: translate(6.5rem, 9.2rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(5) {
+    -webkit-transform: translate(10.7rem, 4.5rem);
+            transform: translate(10.7rem, 4.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(6) {
+    -webkit-transform: translate(20rem, 5.5rem);
+            transform: translate(20rem, 5.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(7) {
+    -webkit-transform: translate(21rem, 15rem);
+            transform: translate(21rem, 15rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(8) {
+    -webkit-transform: translate(19.5rem, 23rem);
+            transform: translate(19.5rem, 23rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(9) {
+    -webkit-transform: translate(18.8rem, 30rem);
+            transform: translate(18.8rem, 30rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(10) {
+    -webkit-transform: translate(13rem, 9.2rem);
+            transform: translate(13rem, 9.2rem);
+  }
+  #main-page #landing-page .info-empanadas {
+    width: 35%;
+    height: 50%;
+    -webkit-transform: translate(130%, 27rem);
+            transform: translate(130%, 27rem);
+    padding: 3rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #main-page {
+    padding: 1.5rem 2.5rem;
+    height: 90rem;
+  }
+  #main-page #landing-page h1 {
+    margin-right: 50rem;
+  }
+  #main-page #landing-page h2 {
+    width: 13rem;
+    -webkit-transform: translate(15rem, 28rem);
+            transform: translate(15rem, 28rem);
+    font-size: 5rem;
+    letter-spacing: .2rem;
+  }
+  #main-page #landing-page nav {
+    -webkit-transform: translate(1rem, 11rem);
+            transform: translate(1rem, 11rem);
+  }
+  #main-page #landing-page nav ul {
+    border-left: .02rem solid white;
+    padding-left: .8rem;
+  }
+  #main-page #landing-page nav ul li a {
+    font-size: 70%;
+    line-height: 1.5rem;
+  }
+  #main-page #landing-page .empanada-img-main {
+    -webkit-transform: translate(20%, -5rem);
+            transform: translate(20%, -5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(1) {
+    width: 35rem;
+    position: absolute;
+    z-index: 0;
+    -webkit-transform: translate(8rem, 5rem);
+            transform: translate(8rem, 5rem);
+  }
+  #main-page #landing-page .empanada-img-main .img-empanada {
+    width: 17rem;
+    position: absolute;
+    z-index: 1;
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(2) {
+    -webkit-transform: translate(7.4rem, 43.5rem);
+            transform: translate(7.4rem, 43.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(3) {
+    -webkit-transform: translate(7.4rem, 31rem);
+            transform: translate(7.4rem, 31rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(4) {
+    -webkit-transform: translate(6rem, 12rem);
+            transform: translate(6rem, 12rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(5) {
+    -webkit-transform: translate(12.7rem, 5.5rem);
+            transform: translate(12.7rem, 5.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(6) {
+    -webkit-transform: translate(27rem, 5.5rem);
+            transform: translate(27rem, 5.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(7) {
+    -webkit-transform: translate(27.5rem, 19.5rem);
+            transform: translate(27.5rem, 19.5rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(8) {
+    -webkit-transform: translate(26.5rem, 33rem);
+            transform: translate(26.5rem, 33rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(9) {
+    -webkit-transform: translate(25rem, 43rem);
+            transform: translate(25rem, 43rem);
+  }
+  #main-page #landing-page .empanada-img-main img:nth-of-type(10) {
+    -webkit-transform: translate(17rem, 12rem);
+            transform: translate(17rem, 12rem);
+  }
+  #main-page #landing-page .info-empanadas {
+    width: 40%;
+    height: 50%;
+    line-height: 2rem;
+    -webkit-transform: translate(130%, 40rem);
+            transform: translate(130%, 40rem);
+    padding: 3rem 3rem 2rem 3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
