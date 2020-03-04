@@ -271,7 +271,7 @@ body {
   #main-page #landing-page .info-empanadas {
     width: 48%;
     height: 35rem;
-    left: 50%;
+    left: 40%;
     top: 36rem;
   }
   #tipo-empanadas {
@@ -357,7 +357,7 @@ body {
     padding-left: .8rem;
   }
   #main-page #landing-page nav ul li a {
-    font-size: 50%;
+    font-size: 70%;
     line-height: 1rem;
   }
   #main-page #landing-page #scene {
@@ -414,9 +414,9 @@ body {
   }
   #main-page #landing-page .info-empanadas {
     width: 35%;
-    height: 30rem;
-    left: 70%;
-    top: 32rem;
+    height: 35rem;
+    left: 60%;
+    top: 29rem;
     padding: 3rem 2rem 1rem 2rem;
   }
   #tipo-empanadas {
@@ -469,14 +469,14 @@ body {
     width: 15rem;
     line-height: 1.5rem;
     position: relative;
-    left: 80%;
+    left: 63%;
     top: -6rem;
   }
   #tipo-empanadas img {
     display: block;
     width: 50%;
     position: absolute;
-    left: 30%;
+    left: 14%;
     top: 85rem;
   }
 }
@@ -509,7 +509,7 @@ body {
     line-height: 1.9rem;
   }
   #main-page #landing-page #scene {
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: -5rem;
     height: 65rem;
   }
@@ -565,8 +565,8 @@ body {
     width: 37%;
     height: 30rem;
     line-height: 2rem;
-    -webkit-transform: translate(40%, 10rem);
-            transform: translate(40%, 10rem);
+    -webkit-transform: translate(1%, 10rem);
+            transform: translate(1%, 10rem);
     padding: 3rem 3rem 2rem 3rem;
   }
   #tipo-empanadas {
@@ -590,7 +590,7 @@ body {
     height: 30rem;
     line-height: 1.7rem;
     position: relative;
-    left: 80%;
+    left: 60%;
     top: -6rem;
   }
   #tipo-empanadas img {
@@ -598,11 +598,84 @@ body {
     width: 50%;
     position: absolute;
     left: 30%;
-    top: 100rem;
+    top: 110rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  #main-page {
+    padding: 1.5rem 6rem;
+    height: 90rem;
+  }
+  #main-page #landing-page h1 {
+    margin-right: 50rem;
+    font-size: 2.3rem;
+  }
+  #main-page #landing-page h2 {
+    width: 13rem;
+    -webkit-transform: translate(19rem, 25rem);
+            transform: translate(19rem, 25rem);
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
+  }
+  #main-page #landing-page nav {
+    -webkit-transform: translate(-1rem, 11rem);
+            transform: translate(-1rem, 11rem);
+  }
+  #main-page #landing-page nav ul {
+    border-left: .02rem solid white;
+    padding-left: 1rem;
+  }
+  #main-page #landing-page nav ul li a {
+    font-size: 130%;
+    line-height: 2rem;
+  }
+  #main-page #landing-page #scene {
+    margin-left: 20%;
+    margin-top: -4rem;
+  }
+  #main-page #landing-page .info-empanadas {
+    width: 40%;
+    height: 45rem;
+    line-height: 2rem;
+    -webkit-transform: translate(-10%, 12rem);
+            transform: translate(-10%, 12rem);
+    padding: 8rem 3rem 2rem 3rem;
+    font-size: 1.5rem;
+  }
+  #tipo-empanadas {
+    margin-top: 10rem;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+    -webkit-transform: translate(1rem);
+            transform: translate(1rem);
+    font-size: 1.2rem;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+    -webkit-transform: translateX(10rem);
+            transform: translateX(10rem);
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+    font-size: 1.5rem;
+    z-index: 0;
+    width: 30rem;
+    height: 35rem;
+    line-height: 2rem;
+    position: relative;
+    left: 55%;
+    top: -6rem;
+  }
+  #tipo-empanadas img {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 31%;
+    top: 130rem;
+  }
+}
+
+@media screen and (min-width: 1590px) {
   #main-page {
     padding: 1.5rem 6rem;
     height: 90rem;
@@ -632,46 +705,46 @@ body {
     line-height: 2rem;
   }
   #main-page #landing-page #scene {
-    margin-left: 60%;
+    margin-left: 30%;
     margin-top: -4rem;
   }
   #main-page #landing-page .info-empanadas {
     width: 40%;
     height: 45rem;
-    line-height: 2rem;
-    -webkit-transform: translate(100%, 15rem);
-            transform: translate(100%, 15rem);
-    padding: 8rem 3rem 2rem 3rem;
+    line-height: 2.6rem;
+    -webkit-transform: translate(-10%, 19rem);
+            transform: translate(-10%, 19rem);
+    padding: 8rem 5rem 2rem 5rem;
     font-size: 1.5rem;
   }
   #tipo-empanadas {
     margin-top: 10rem;
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
-    -webkit-transform: translate(34rem);
-            transform: translate(34rem);
+    -webkit-transform: translate(1rem);
+            transform: translate(1rem);
     font-size: 1.2rem;
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
-    -webkit-transform: translateX(40rem);
-            transform: translateX(40rem);
+    -webkit-transform: translateX(10rem);
+            transform: translateX(10rem);
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
     font-size: 1.5rem;
     z-index: 0;
     width: 30rem;
-    height: 30rem;
+    height: 35rem;
     line-height: 2rem;
     position: relative;
-    left: 100%;
+    left: 55%;
     top: -6rem;
   }
   #tipo-empanadas img {
     display: block;
     width: 50%;
     position: absolute;
-    left: 50%;
-    top: 115rem;
+    left: 31%;
+    top: 130rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
