@@ -35,6 +35,7 @@ body {
   color: white;
   font-size: 150%;
   text-align: end;
+  opacity: .5;
 }
 
 #main-page #landing-page h2 {
@@ -91,14 +92,15 @@ body {
   margin-left: .8rem;
 }
 
-#main-page #landing-page #scene {
+#main-page #landing-page #scene1 {
   width: 100%;
   height: 40rem;
   position: absolute;
   overflow-x: hidden;
+  opacity: 1;
 }
 
-#main-page #landing-page #scene img:nth-of-type(1) {
+#main-page #landing-page #scene1 img:nth-of-type(1) {
   width: 20rem;
   z-index: 0;
   position: absolute;
@@ -106,53 +108,53 @@ body {
   margin-top: 5rem;
 }
 
-#main-page #landing-page #scene .img-empanada {
+#main-page #landing-page #scene1 .img-empanada {
   position: absolute;
   width: 10rem;
   z-index: 1;
 }
 
-#main-page #landing-page #scene img:nth-of-type(2) {
+#main-page #landing-page #scene1 img:nth-of-type(2) {
   margin-left: 8rem;
   margin-top: 27rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(3) {
+#main-page #landing-page #scene1 img:nth-of-type(3) {
   margin-left: 7.4rem;
   margin-top: 20rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(4) {
+#main-page #landing-page #scene1 img:nth-of-type(4) {
   margin-left: 7.2rem;
   margin-top: 8.2rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(5) {
+#main-page #landing-page #scene1 img:nth-of-type(5) {
   margin-left: 10.7rem;
   margin-top: 4.5rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(6) {
+#main-page #landing-page #scene1 img:nth-of-type(6) {
   margin-left: 18.8rem;
   margin-top: 5rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(7) {
+#main-page #landing-page #scene1 img:nth-of-type(7) {
   margin-left: 18.8rem;
   margin-top: 13rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(8) {
+#main-page #landing-page #scene1 img:nth-of-type(8) {
   margin-left: 18.8rem;
   margin-top: 20.5rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(9) {
+#main-page #landing-page #scene1 img:nth-of-type(9) {
   margin-left: 17.5rem;
   margin-top: 27rem;
 }
 
-#main-page #landing-page #scene img:nth-of-type(10) {
+#main-page #landing-page #scene1 img:nth-of-type(10) {
   margin-left: 12rem;
   margin-top: 9.2rem;
 }
@@ -203,13 +205,13 @@ body {
   z-index: 50;
 }
 
-#tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
   color: var(--light-text);
   text-align: center;
   z-index: 50;
 }
 
-#tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
   color: white;
   font-size: 2.5rem;
   text-align: center;
@@ -262,7 +264,7 @@ body {
     padding-left: 1rem;
     margin-right: 2rem;
   }
-  #main-page #landing-page #scene {
+  #main-page #landing-page #scene11 {
     -webkit-transform: translateX(7rem);
             transform: translateX(7rem);
     width: 90%;
@@ -300,12 +302,12 @@ body {
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-header {
     z-index: 50;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     color: var(--light-text);
     text-align: center;
     z-index: 50;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
     color: white;
     font-size: 2.5rem;
     text-align: center;
@@ -360,55 +362,55 @@ body {
     font-size: 70%;
     line-height: 1rem;
   }
-  #main-page #landing-page #scene {
+  #main-page #landing-page #scene11 {
     margin-left: 20%;
     margin-top: -3rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(1) {
+  #main-page #landing-page #scene11 img:nth-of-type(1) {
     width: 23rem;
     position: absolute;
     z-index: 0;
     margin-left: 8rem;
     margin-top: 5rem;
   }
-  #main-page #landing-page #scene .img-empanada {
+  #main-page #landing-page #scene11 .img-empanada {
     width: 12rem;
     position: absolute;
     z-index: 1;
   }
-  #main-page #landing-page #scene img:nth-of-type(2) {
+  #main-page #landing-page #scene11 img:nth-of-type(2) {
     margin-left: 7.4rem;
     margin-top: 30rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(3) {
+  #main-page #landing-page #scene11 img:nth-of-type(3) {
     margin-left: 7.4rem;
     margin-top: 21.9rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(4) {
+  #main-page #landing-page #scene11 img:nth-of-type(4) {
     margin-left: 6.5rem;
     margin-top: 9.2rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(5) {
+  #main-page #landing-page #scene11 img:nth-of-type(5) {
     margin-left: 10.7rem;
     margin-top: 4.5rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(6) {
+  #main-page #landing-page #scene11 img:nth-of-type(6) {
     margin-left: 20rem;
     margin-top: 5.5rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(7) {
+  #main-page #landing-page #scene11 img:nth-of-type(7) {
     margin-left: 21rem;
     margin-top: 15rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(8) {
+  #main-page #landing-page #scene11 img:nth-of-type(8) {
     margin-left: 19.5rem;
     margin-top: 23rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(9) {
+  #main-page #landing-page #scene11 img:nth-of-type(9) {
     margin-left: 18.8rem;
     margin-top: 30rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(10) {
+  #main-page #landing-page #scene11 img:nth-of-type(10) {
     margin-left: 13rem;
     margin-top: 9.2rem;
   }
@@ -446,14 +448,14 @@ body {
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-header {
     z-index: 50;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     color: var(--light-text);
     text-align: center;
     z-index: 50;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
     z-index: 100;
     -webkit-transform: translateX(9rem);
@@ -471,13 +473,14 @@ body {
     position: relative;
     left: 63%;
     top: -6rem;
+    height: 26rem;
   }
   #tipo-empanadas img {
     display: block;
-    width: 50%;
-    position: absolute;
-    left: 14%;
-    top: 85rem;
+    width: 40%;
+    position: relative;
+    left: 23%;
+    top: -25rem;
   }
 }
 
@@ -508,56 +511,56 @@ body {
     font-size: 90%;
     line-height: 1.9rem;
   }
-  #main-page #landing-page #scene {
+  #main-page #landing-page #scene1 {
     margin-left: 20%;
     margin-top: -5rem;
     height: 65rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(1) {
+  #main-page #landing-page #scene1 img:nth-of-type(1) {
     width: 40rem;
     position: absolute;
     z-index: 0;
     margin-left: 8rem;
     margin-top: 5rem;
   }
-  #main-page #landing-page #scene .img-empanada {
+  #main-page #landing-page #scene1 .img-empanada {
     width: 19rem;
     position: absolute;
     z-index: 1;
   }
-  #main-page #landing-page #scene img:nth-of-type(2) {
+  #main-page #landing-page #scene1 img:nth-of-type(2) {
     margin-left: 7,4rem;
     margin-top: 49rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(3) {
+  #main-page #landing-page #scene1 img:nth-of-type(3) {
     margin-left: 7.4rem;
     margin-top: 36rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(4) {
+  #main-page #landing-page #scene1 img:nth-of-type(4) {
     margin-left: 6rem;
     margin-top: 14rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(5) {
+  #main-page #landing-page #scene1 img:nth-of-type(5) {
     margin-left: 13.5rem;
     margin-top: 7rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(6) {
+  #main-page #landing-page #scene1 img:nth-of-type(6) {
     margin-left: 29.9rem;
     margin-top: 5.9rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(7) {
+  #main-page #landing-page #scene1 img:nth-of-type(7) {
     margin-left: 32rem;
     margin-top: 22rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(8) {
+  #main-page #landing-page #scene1 img:nth-of-type(8) {
     margin-left: 29rem;
     margin-top: 36rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(9) {
+  #main-page #landing-page #scene1 img:nth-of-type(9) {
     margin-left: 27rem;
     margin-top: 47rem;
   }
-  #main-page #landing-page #scene img:nth-of-type(10) {
+  #main-page #landing-page #scene1 img:nth-of-type(10) {
     margin-left: 18rem;
     margin-top: 15rem;
   }
@@ -572,21 +575,21 @@ body {
   #tipo-empanadas {
     margin-top: -5rem;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     color: var(--light-text);
     text-align: center;
     z-index: 50;
     -webkit-transform: translate(5.5rem);
             transform: translate(5.5rem);
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
     -webkit-transform: translateX(16rem);
             transform: translateX(16rem);
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     z-index: 0;
-    width: 24rem;
+    width: 23rem;
     height: 30rem;
     line-height: 1.7rem;
     position: relative;
@@ -595,10 +598,10 @@ body {
   }
   #tipo-empanadas img {
     display: block;
-    width: 50%;
-    position: absolute;
+    width: 40%;
+    position: relative;
     left: 30%;
-    top: 110rem;
+    top: -13rem;
   }
 }
 
@@ -606,6 +609,7 @@ body {
   #main-page {
     padding: 1.5rem 6rem;
     height: 90rem;
+    margin-bottom: 10rem;
   }
   #main-page #landing-page h1 {
     margin-right: 50rem;
@@ -631,33 +635,30 @@ body {
     font-size: 130%;
     line-height: 2rem;
   }
-  #main-page #landing-page #scene {
+  #main-page #landing-page #scene1 {
     margin-left: 20%;
     margin-top: -4rem;
   }
   #main-page #landing-page .info-empanadas {
-    width: 40%;
+    width: 35%;
     height: 45rem;
     line-height: 2rem;
     -webkit-transform: translate(-10%, 12rem);
             transform: translate(-10%, 12rem);
     padding: 8rem 3rem 2rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  #tipo-empanadas {
-    margin-top: 10rem;
-  }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     -webkit-transform: translate(1rem);
             transform: translate(1rem);
     font-size: 1.2rem;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
     -webkit-transform: translateX(10rem);
             transform: translateX(10rem);
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     z-index: 0;
     width: 30rem;
     height: 35rem;
@@ -668,10 +669,10 @@ body {
   }
   #tipo-empanadas img {
     display: block;
-    width: 50%;
-    position: absolute;
+    width: 35%;
+    position: relative;
     left: 31%;
-    top: 130rem;
+    top: -15rem;
   }
 }
 
@@ -681,20 +682,20 @@ body {
     height: 90rem;
   }
   #main-page #landing-page h1 {
-    margin-right: 50rem;
+    margin-right: 12rem;
     font-size: 2.3rem;
   }
   #main-page #landing-page h2 {
     width: 13rem;
-    -webkit-transform: translate(19rem, 25rem);
-            transform: translate(19rem, 25rem);
+    -webkit-transform: translate(25rem, 25rem);
+            transform: translate(25rem, 25rem);
     font-size: 10rem;
-    font-weight: 900;
-    letter-spacing: .3rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
   }
   #main-page #landing-page nav {
-    -webkit-transform: translate(-1rem, 11rem);
-            transform: translate(-1rem, 11rem);
+    -webkit-transform: translate(3rem, 11rem);
+            transform: translate(3rem, 11rem);
   }
   #main-page #landing-page nav ul {
     border-left: .02rem solid white;
@@ -704,33 +705,38 @@ body {
     font-size: 130%;
     line-height: 2rem;
   }
-  #main-page #landing-page #scene {
-    margin-left: 30%;
+  #main-page #landing-page #scene1 {
+    margin-left: 40%;
     margin-top: -4rem;
   }
   #main-page #landing-page .info-empanadas {
-    width: 40%;
-    height: 45rem;
+    width: 30%;
+    height: 38rem;
     line-height: 2.6rem;
     -webkit-transform: translate(-10%, 19rem);
             transform: translate(-10%, 19rem);
     padding: 8rem 5rem 2rem 5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   #tipo-empanadas {
     margin-top: 10rem;
+    opacity: 0;
+    -webkit-transition: all 1.5s ease-in;
+    transition: all 1.5s ease-in;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     -webkit-transform: translate(1rem);
             transform: translate(1rem);
     font-size: 1.2rem;
   }
-  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-tipo-title {
     -webkit-transform: translateX(10rem);
             transform: translateX(10rem);
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     z-index: 0;
     width: 30rem;
     height: 35rem;
@@ -738,13 +744,17 @@ body {
     position: relative;
     left: 55%;
     top: -6rem;
+    padding: 7rem 2rem 2rem 8rem;
   }
   #tipo-empanadas img {
     display: block;
-    width: 50%;
-    position: absolute;
+    position: relaltive;
+    width: 30%;
     left: 31%;
-    top: 130rem;
+    top: -18rem;
+  }
+  #tipo-empanadas.move {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */

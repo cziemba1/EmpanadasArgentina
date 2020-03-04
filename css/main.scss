@@ -32,6 +32,7 @@ body{
             color: white;
             font-size: 150%;
             text-align: end;
+            opacity: .5;
         }
 
         h2{
@@ -84,11 +85,12 @@ body{
             }
         }
 
-        #scene{
+        #scene1{
             width: 100%;
             height: 40rem;
             position: absolute;
             overflow-x: hidden;
+            opacity: 1;
 
             img:nth-of-type(1){
                 width: 20rem;
@@ -185,13 +187,13 @@ body{
         .tipo-empanada-header{
             z-index: 50;
 
-            h4{
+            .emp-sub-title{
                 color: var(--light-text);
                 text-align: center;
                 z-index: 50;
-            }
 
-            h2{
+            }
+            .emp-tipo-title{
                 color: white;
                 font-size: 2.5rem;
                 text-align: center;
@@ -249,7 +251,7 @@ body{
                     }
                 }
 
-                #scene{
+                #scene11{
                     transform: translateX(7rem);
                     width: 90%;
                     margin-left: 4rem;
@@ -278,13 +280,13 @@ body{
             .tipo-empanada-header{
                 z-index: 50;
 
-                h4{
+                .emp-sub-title{
                     color: var(--light-text);
                     text-align: center;
                     z-index: 50;
                 }
 
-                h2{
+                .emp-tipo-title{
                     color: white;
                     font-size: 2.5rem;
                     text-align: center;
@@ -348,7 +350,7 @@ body{
                 }
             }
 
-            #scene{
+            #scene11{
                 margin-left: 20%;
                 margin-top: -3rem;
                             
@@ -437,15 +439,15 @@ body{
         .tipo-empanada-header{
             z-index: 50;
 
-            h4{
+            .emp-sub-title{
                 color: var(--light-text);
                 text-align: center;
                 z-index: 50;
             }
 
-            h2{
+            .emp-tipo-title{
                 color: white;
-                font-size: 5rem;
+                font-size: 3rem;
                 text-align: center;
                 z-index: 100;
                 transform: translateX(9rem);
@@ -464,16 +466,17 @@ body{
             position: relative;
             left: 63%;
             top: -6rem;
+            height: 26rem;
         }
 
     }
 
     img{
         display: block;
-        width: 50%;
-        position: absolute;
-        left: 14%;
-        top: 85rem;
+        width: 40%;
+        position: relative;
+        left: 23%;
+        top: -25rem;
     }
 }
 }
@@ -505,7 +508,7 @@ body{
                 }
             }
 
-            #scene{
+            #scene1{
                 margin-left: 20%;
                 margin-top: -5rem;
                 height: 65rem;
@@ -586,22 +589,22 @@ body{
 
         .tipo-empanada-header{
 
-            h4{
+            .emp-sub-title{
                 color: var(--light-text);
                 text-align: center;
                 z-index: 50;
                 transform: translate(5.5rem);
             }
 
-            h2{
+            .emp-tipo-title{
                 transform: translateX(16rem);
             }
         }
 
         .tipo-empanada-desc{
-            font-size: 1.2rem;
+            font-size: 1rem;
             z-index: 0;
-            width: 24rem;
+            width: 23rem;
             height: 30rem;
             line-height: 1.7rem;
             position: relative;
@@ -613,10 +616,10 @@ body{
 
     img{
         display: block;
-        width: 50%;
-        position: absolute;
+        width: 40%;
+        position: relative;
         left: 30%;
-        top: 110rem;
+        top: -13rem;
     }
 }  
 }
@@ -626,6 +629,7 @@ body{
     #main-page{
         padding: 1.5rem 6rem;
         height: 90rem;
+        margin-bottom: 10rem;
 
         #landing-page{
             h1{
@@ -652,40 +656,39 @@ body{
                 }
             }
 
-            #scene{
+            #scene1{
                 margin-left: 20%;
                 margin-top: -4rem;
             }
 
             .info-empanadas{
-                width: 40%;
+                width: 35%;
                 height: 45rem;
                 line-height: 2rem;
                 transform: translate(-10%, 12rem);
                 padding: 8rem 3rem 2rem 3rem;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
         }
     }
     #tipo-empanadas{
-    margin-top: 10rem;
 
     .tipo-empanada-right{
 
         .tipo-empanada-header{
 
-            h4{
+            .emp-sub-title{
                 transform: translate(1rem);
                 font-size: 1.2rem;
             }
 
-            h2{
+            .emp-tipo-title{
                 transform: translateX(10rem);
             }
         }
 
         .tipo-empanada-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             z-index: 0;
             width: 30rem;
             height: 35rem;
@@ -699,10 +702,10 @@ body{
 
     img{
         display: block;
-        width: 50%;
-        position: absolute;
+        width: 35%;
+        position: relative;
         left: 31%;
-        top: 130rem;
+        top: -15rem;
     }
 }     
 }
@@ -715,18 +718,18 @@ body{
 
         #landing-page{
             h1{
-                margin-right: 50rem;
+                margin-right: 12rem;
                 font-size: 2.3rem;
             }
             h2{
                 width: 13rem;
-                transform: translate(19rem, 25rem);
+                transform: translate(25rem, 25rem);
                 font-size: 10rem;
-                font-weight: 900;
-                letter-spacing: .3rem;
+                font-weight: 600;
+                letter-spacing: .2rem;
             }
             nav{  
-                transform: translate(-1rem, 11rem);             
+                transform: translate(3rem, 11rem);             
                 ul{
                     border-left: .02rem solid white;
                     padding-left: 1rem; 
@@ -738,40 +741,43 @@ body{
                 }
             }
 
-            #scene{
-                margin-left: 30%;
+            #scene1{
+                margin-left: 40%;
                 margin-top: -4rem;
             }
 
             .info-empanadas{
-                width: 40%;
-                height: 45rem;
+                width: 30%;
+                height: 38rem;
                 line-height: 2.6rem;
                 transform: translate(-10%, 19rem);
                 padding: 8rem 5rem 2rem 5rem;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
         }
     }
     #tipo-empanadas{
     margin-top: 10rem;
+    opacity: 0;
+    transition: all 1.5s ease-in;
 
     .tipo-empanada-right{
 
         .tipo-empanada-header{
 
-            h4{
+            .emp-sub-title{
                 transform: translate(1rem);
                 font-size: 1.2rem;
             }
 
-            h2{
+            .emp-tipo-title{
                 transform: translateX(10rem);
+                transition: all 1s ease-out;
             }
         }
 
         .tipo-empanada-desc{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             z-index: 0;
             width: 30rem;
             height: 35rem;
@@ -779,17 +785,22 @@ body{
             position: relative;
             left: 55%;
             top: -6rem;
+            padding: 7rem 2rem 2rem 8rem;
         }
 
     }
+    
 
     img{
         display: block;
-        width: 50%;
-        position: absolute;
+        position: relaltive;
+        width: 30%;
         left: 31%;
-        top: 130rem;
+        top: -18rem;
     }
-}     
+}    
+#tipo-empanadas.move{
+        opacity: 1;
+    } 
 }
 
