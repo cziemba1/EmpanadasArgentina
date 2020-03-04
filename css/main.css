@@ -26,11 +26,15 @@ body {
   height: 90rem;
 }
 
+#main-page #landing-page {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 #main-page #landing-page h1 {
   color: white;
   font-size: 150%;
   text-align: end;
-  margin-right: 5rem;
 }
 
 #main-page #landing-page h2 {
@@ -41,7 +45,7 @@ body {
   position: absolute;
   -webkit-transform: translate(18%, 28rem);
           transform: translate(18%, 28rem);
-  z-index: 10;
+  z-index: 100;
 }
 
 #main-page #landing-page nav {
@@ -79,7 +83,7 @@ body {
   margin-left: .2rem;
   -webkit-transition: margin-left .3s ease-in;
   transition: margin-left .3s ease-in;
-  font-size: 70%;
+  font-size: 50%;
   line-height: 1.5rem;
 }
 
@@ -89,13 +93,15 @@ body {
 
 #main-page #landing-page #scene {
   width: 100%;
-  height: 100vh;
+  height: 40rem;
   position: absolute;
+  overflow-x: hidden;
 }
 
 #main-page #landing-page #scene img:nth-of-type(1) {
   width: 20rem;
   z-index: 0;
+  position: absolute;
   margin-left: 8rem;
   margin-top: 5rem;
 }
@@ -152,22 +158,87 @@ body {
 }
 
 #main-page #landing-page .info-empanadas {
-  width: 75%;
-  padding: 6rem 1rem 2rem 1rem;
+  width: 66%;
+  height: 20rem;
+  padding: 6rem 1rem 1rem 1rem;
   background-color: var(--secondary-text);
-  height: 48rem;
+  height: 35rem;
   text-align: end;
   line-height: 1.5rem;
   letter-spacing: .1rem;
   color: white;
-  -webkit-transform: translate(6rem, 34.5rem);
-          transform: translate(6rem, 34.5rem);
-  z-index: 30;
+  position: absolute;
+  left: 42%;
+  top: 34rem;
+  z-index: 10;
+  font-size: .9rem;
+}
+
+#tipo-empanadas {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#tipo-empanadas .tipo-empanada-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-header {
+  z-index: 50;
+}
+
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+  color: var(--light-text);
+  text-align: center;
+  z-index: 50;
+}
+
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  z-index: 100;
+  -webkit-transform: translateX(4rem);
+          transform: translateX(4rem);
+}
+
+#tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+  color: white;
+  background-color: var(--secondary-text);
+  padding: 8rem 1rem 1rem 1rem;
+  text-align: end;
+  font-size: .8rem;
+  z-index: 0;
+  width: 15rem;
+  line-height: 1.5rem;
+  position: relative;
+  left: 50%;
+  top: -6rem;
+}
+
+#tipo-empanadas img {
+  display: none;
 }
 
 @media screen and (min-width: 500px) {
   #main-page {
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 0rem;
     overflow-x: hidden;
     height: 90rem;
   }
@@ -182,19 +253,81 @@ body {
     font-size: 300%;
     letter-spacing: .2rem;
   }
+  #main-page #landing-page nav {
+    margin-left: 2rem;
+    z-index: 1000;
+  }
   #main-page #landing-page nav ul {
     border-left: .02rem solid white;
-    padding-left: .8rem;
+    padding-left: 1rem;
+    margin-right: 2rem;
   }
-  #main-page #landing-page .empanada-img-main {
-    -webkit-transform: translate(2.9rem);
-            transform: translate(2.9rem);
+  #main-page #landing-page #scene {
+    -webkit-transform: translateX(7rem);
+            transform: translateX(7rem);
+    width: 90%;
+    margin-left: 4rem;
   }
   #main-page #landing-page .info-empanadas {
-    width: 60%;
+    width: 48%;
     height: 35rem;
-    -webkit-transform: translate(9rem, 34.5rem);
-            transform: translate(9rem, 34.5rem);
+    left: 50%;
+    top: 36rem;
+  }
+  #tipo-empanadas {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #tipo-empanadas .tipo-empanada-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header {
+    z-index: 50;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+    color: var(--light-text);
+    text-align: center;
+    z-index: 50;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    z-index: 100;
+    -webkit-transform: translateX(4rem);
+            transform: translateX(4rem);
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+    color: white;
+    background-color: var(--secondary-text);
+    padding: 8rem 1rem 1rem 1rem;
+    text-align: end;
+    font-size: .8rem;
+    z-index: 0;
+    width: 15rem;
+    line-height: 1.5rem;
+    position: relative;
+    left: 50%;
+    top: -6rem;
+  }
+  #tipo-empanadas img {
+    display: none;
   }
 }
 
@@ -228,7 +361,7 @@ body {
     line-height: 1rem;
   }
   #main-page #landing-page #scene {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: -3rem;
   }
   #main-page #landing-page #scene img:nth-of-type(1) {
@@ -281,10 +414,70 @@ body {
   }
   #main-page #landing-page .info-empanadas {
     width: 35%;
-    height: 50%;
-    -webkit-transform: translate(130%, 27rem);
-            transform: translate(130%, 27rem);
+    height: 30rem;
+    left: 70%;
+    top: 32rem;
     padding: 3rem 2rem 1rem 2rem;
+  }
+  #tipo-empanadas {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: -15rem;
+  }
+  #tipo-empanadas .tipo-empanada-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header {
+    z-index: 50;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+    color: var(--light-text);
+    text-align: center;
+    z-index: 50;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    z-index: 100;
+    -webkit-transform: translateX(9rem);
+            transform: translateX(9rem);
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+    color: white;
+    background-color: var(--secondary-text);
+    padding: 8rem 1rem 1rem 1rem;
+    text-align: end;
+    font-size: .8rem;
+    z-index: 0;
+    width: 15rem;
+    line-height: 1.5rem;
+    position: relative;
+    left: 80%;
+    top: -6rem;
+  }
+  #tipo-empanadas img {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    top: 85rem;
   }
 }
 
@@ -298,9 +491,9 @@ body {
   }
   #main-page #landing-page h2 {
     width: 13rem;
-    -webkit-transform: translate(15rem, 28rem);
-            transform: translate(15rem, 28rem);
-    font-size: 5rem;
+    -webkit-transform: translate(20rem, 25rem);
+            transform: translate(20rem, 25rem);
+    font-size: 6rem;
     letter-spacing: .2rem;
   }
   #main-page #landing-page nav {
@@ -312,12 +505,13 @@ body {
     padding-left: .8rem;
   }
   #main-page #landing-page nav ul li a {
-    font-size: 70%;
-    line-height: 1.5rem;
+    font-size: 90%;
+    line-height: 1.9rem;
   }
   #main-page #landing-page #scene {
-    margin-left: 20%;
+    margin-left: 30%;
     margin-top: -5rem;
+    height: 65rem;
   }
   #main-page #landing-page #scene img:nth-of-type(1) {
     width: 40rem;
@@ -368,12 +562,43 @@ body {
     margin-top: 15rem;
   }
   #main-page #landing-page .info-empanadas {
-    width: 40%;
-    height: 50%;
+    width: 37%;
+    height: 30rem;
     line-height: 2rem;
-    -webkit-transform: translate(130%, 40rem);
-            transform: translate(130%, 40rem);
+    -webkit-transform: translate(40%, 10rem);
+            transform: translate(40%, 10rem);
     padding: 3rem 3rem 2rem 3rem;
+  }
+  #tipo-empanadas {
+    margin-top: -5rem;
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+    color: var(--light-text);
+    text-align: center;
+    z-index: 50;
+    -webkit-transform: translate(5.5rem);
+            transform: translate(5.5rem);
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+    -webkit-transform: translateX(16rem);
+            transform: translateX(16rem);
+  }
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+    font-size: 1.2rem;
+    z-index: 0;
+    width: 24rem;
+    height: 30rem;
+    line-height: 1.7rem;
+    position: relative;
+    left: 80%;
+    top: -6rem;
+  }
+  #tipo-empanadas img {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    top: 100rem;
   }
 }
 
@@ -384,67 +609,69 @@ body {
   }
   #main-page #landing-page h1 {
     margin-right: 50rem;
+    font-size: 2.3rem;
   }
   #main-page #landing-page h2 {
     width: 13rem;
-    -webkit-transform: translate(15rem, 28rem);
-            transform: translate(15rem, 28rem);
-    font-size: 7rem;
-    font-weight: 600;
-    letter-spacing: .2rem;
+    -webkit-transform: translate(19rem, 25rem);
+            transform: translate(19rem, 25rem);
+    font-size: 10rem;
+    font-weight: 900;
+    letter-spacing: .3rem;
   }
   #main-page #landing-page nav {
-    -webkit-transform: translate(1rem, 11rem);
-            transform: translate(1rem, 11rem);
+    -webkit-transform: translate(-1rem, 11rem);
+            transform: translate(-1rem, 11rem);
   }
   #main-page #landing-page nav ul {
     border-left: .02rem solid white;
-    padding-left: .8rem;
+    padding-left: 1rem;
   }
   #main-page #landing-page nav ul li a {
-    font-size: 70%;
-    line-height: 1.5rem;
+    font-size: 130%;
+    line-height: 2rem;
   }
   #main-page #landing-page #scene {
-    margin-left: 30%;
-    margin-top: -5rem;
+    margin-left: 60%;
+    margin-top: -4rem;
   }
   #main-page #landing-page .info-empanadas {
     width: 40%;
-    height: 50%;
+    height: 45rem;
     line-height: 2rem;
-    -webkit-transform: translate(130%, 40rem);
-            transform: translate(130%, 40rem);
-    padding: 6rem 3rem 2rem 3rem;
+    -webkit-transform: translate(100%, 15rem);
+            transform: translate(100%, 15rem);
+    padding: 8rem 3rem 2rem 3rem;
+    font-size: 1.5rem;
   }
-}
-
-@media screen and (min-width: 1400px) {
-  #main-page {
-    padding: 1.5rem 6rem;
-    height: 90rem;
+  #tipo-empanadas {
+    margin-top: 10rem;
   }
-  #main-page #landing-page h1 {
-    margin-right: 70rem;
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h4 {
+    -webkit-transform: translate(34rem);
+            transform: translate(34rem);
+    font-size: 1.2rem;
   }
-  #main-page #landing-page h2 {
-    -webkit-transform: translate(26rem, 26rem);
-            transform: translate(26rem, 26rem);
-    font-size: 5.8rem;
-    font-weight: 600;
-    letter-spacing: .2rem;
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-header h2 {
+    -webkit-transform: translateX(40rem);
+            transform: translateX(40rem);
   }
-  #main-page #landing-page #scene {
-    margin-left: 40%;
-    margin-top: -5rem;
-  }
-  #main-page #landing-page .info-empanadas {
-    width: 30%;
-    height: 50%;
+  #tipo-empanadas .tipo-empanada-right .tipo-empanada-desc {
+    font-size: 1.5rem;
+    z-index: 0;
+    width: 30rem;
+    height: 30rem;
     line-height: 2rem;
-    -webkit-transform: translate(200%, 37rem);
-            transform: translate(200%, 37rem);
-    padding: 9rem 3rem 6rem 9rem;
+    position: relative;
+    left: 100%;
+    top: -6rem;
+  }
+  #tipo-empanadas img {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 115rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
