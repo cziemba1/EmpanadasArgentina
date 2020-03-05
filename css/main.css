@@ -189,6 +189,9 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  opacity: 1;
 }
 
 #tipo-empanadas .tipo-empanada-right {
@@ -236,6 +239,39 @@ body {
 
 #tipo-empanadas img {
   display: none;
+}
+
+#tipo-empanadas.move {
+  opacity: 1;
+}
+
+footer {
+  border-top: 0.01rem solid var(--light-text);
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3rem;
+}
+
+footer p {
+  font-size: 2rem;
+  color: var(--secondary-text);
+}
+
+footer p a {
+  color: var(--light-text);
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 500px) {
@@ -612,7 +648,7 @@ body {
     margin-bottom: 10rem;
   }
   #main-page #landing-page h1 {
-    margin-right: 50rem;
+    margin-right: 5rem;
     font-size: 2.3rem;
   }
   #main-page #landing-page h2 {
@@ -624,8 +660,8 @@ body {
     letter-spacing: .3rem;
   }
   #main-page #landing-page nav {
-    -webkit-transform: translate(-1rem, 11rem);
-            transform: translate(-1rem, 11rem);
+    -webkit-transform: translate(-1rem, 9rem);
+            transform: translate(-1rem, 9rem);
   }
   #main-page #landing-page nav ul {
     border-left: .02rem solid white;
@@ -694,8 +730,8 @@ body {
     letter-spacing: .2rem;
   }
   #main-page #landing-page nav {
-    -webkit-transform: translate(3rem, 11rem);
-            transform: translate(3rem, 11rem);
+    -webkit-transform: translate(3rem, 9rem);
+            transform: translate(3rem, 9rem);
   }
   #main-page #landing-page nav ul {
     border-left: .02rem solid white;
@@ -720,9 +756,6 @@ body {
   }
   #tipo-empanadas {
     margin-top: 10rem;
-    opacity: 0;
-    -webkit-transition: all 1.5s ease-in;
-    transition: all 1.5s ease-in;
   }
   #tipo-empanadas .tipo-empanada-right .tipo-empanada-header .emp-sub-title {
     -webkit-transform: translate(1rem);
@@ -752,9 +785,6 @@ body {
     width: 30%;
     left: 31%;
     top: -18rem;
-  }
-  #tipo-empanadas.move {
-    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */
